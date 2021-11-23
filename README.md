@@ -14,13 +14,13 @@ Tru <tru@pasteur.fr>
 - `:latest` tagged singularity image
 - Only cover the software installation for cpu (https://gricad-gitlab.univ-grenoble-alpes.fr/talks/fidle/-/wikis/Using%20Fidle/Linux%20installation%20using%20conda)
 
-## Usage
-- Docker [![Docker build](https://github.com/truatpasteurdotfr/singularity-docker-fidle/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-docker-fidle/actions/workflows/docker-publish.yml)
+## Usage [![Docker and Singularity build](https://github.com/truatpasteurdotfr/singularity-docker-fidle/actions/workflows/docker-singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-docker-fidle/actions/workflows/docker-singularity-publish.yml)
+- Docker 
 ```
 docker pull ghcr.io/truatpasteurdotfr/singularity-docker-fidle:main
 ```
 
-- Singularity [![Singularity build](https://github.com/truatpasteurdotfr/singularity-docker-fidle/actions/workflows/singularity-publish.yml/badge.svg)](https://github.com/truatpasteurdotfr/singularity-docker-fidle/actions/workflows/singularity-publish.yml)
+- Singularity 
 ```
 singularity run oras://ghcr.io/truatpasteurdotfr/singularity-docker-fidle:latest
 ```
